@@ -1,0 +1,25 @@
+{
+  "name": "js-design-patterns",
+  "version": "1.0.0",
+  "description": "playing around javascript common design patterns.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammedMoussa/js-design-patterns.git"
+  },
+  "keywords": [
+    "javascript",
+    "designpatterns"
+  ],
+  "author": "Muhammed Moussa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammedMoussa/js-design-patterns/issues"
+  },
+  "homepage": "https://github.com/muhammedMoussa/js-design-patterns#readme",
+  "dependencies": {
+  }
+}
