@@ -1,12 +1,16 @@
-import { Car } from './patterns/constructor';
-
-var civic = new Car( 'Honda Civic', 2009, 20000 );
-var mondeo = new Car( 'Ford Mondeo', 2010, 5000 );
+import {basicModule} from './patterns/module'
 
 const output = document.querySelector('.output');
+const incrementBtn = document.querySelector('.increment');
+// function increment() {
+//     return basicModule.increment()
+// }
+
+incrementBtn.addEventListener('click', () => {
+    console.log(basicModule)
+    return basicModule.increment()
+})
 
 output.innerHTML = `
-    <p>${civic.toString()}</p>
-    <p>${mondeo.toString()}</p>
+    <p>${basicModule.counter}</p>
 `
-

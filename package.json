@@ -20,6 +20,8 @@
     "url": "https://github.com/muhammedMoussa/js-design-patterns/issues"
   },
   "homepage": "https://github.com/muhammedMoussa/js-design-patterns#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1"
   }
 }
