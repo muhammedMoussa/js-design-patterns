@@ -1,16 +1,13 @@
-import {basicModule} from './patterns/module'
+import {revealingModule} from './patterns/module'
 
 const output = document.querySelector('.output');
 const incrementBtn = document.querySelector('.increment');
-// function increment() {
-//     return basicModule.increment()
-// }
 
 incrementBtn.addEventListener('click', () => {
-    console.log(basicModule)
-    return basicModule.increment()
+    revealingModule.setName('ssssss')
+    console.log(revealingModule)
 })
 
 output.innerHTML = `
-    <p>${basicModule.counter}</p>
+    <p>${revealingModule.greeting}</p>
 `
